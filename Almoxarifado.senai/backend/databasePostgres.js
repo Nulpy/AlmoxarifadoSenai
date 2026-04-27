@@ -1,5 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { sql } from './sql';
+import { sql } from './sql.js';
 import bcrypt from 'bcrypt';
 
 export class DatabasePostgress{
